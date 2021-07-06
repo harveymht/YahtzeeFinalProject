@@ -20,7 +20,7 @@ public class YahtzeeFrame extends JFrame {
 
 	// btns and scores in upper section
 	private JButton[] upperBtns;		// buttons(6)
-	private JTextField[] upper;			// categories(6)
+	private JTextField[] upper;		// categories(6)
 	private JTextField upperBonus;		// bonus
 	private JTextField upperSubtotal;	// subtotal
 	private JTextField upperTotal;		// total
@@ -28,19 +28,19 @@ public class YahtzeeFrame extends JFrame {
 
 	// btns and scores in lower section
 	private JButton[] lowerBtns;		// buttons(7)
-	private JTextField[] lower;			// categories(7)
+	private JTextField[] lower;		// categories(7)
 	private JTextField lowerBonus;		// bonus
 	private JTextField lowerSubtotal;	// subtotal
 	private JTextField lowerTotal;		// total
 	private final String[] btnNameLower = {"3 of a kind", "4 of a kind", "Full House", "Small Straight",
 			"Large Straight", "Yahtzee", "Chance"};
 
-	private ImagePanel[] dice;			// 5 dice images
-	private JCheckBox[] keep;			// if keep for each die
-	private JLabel turnLabel;			// label show the num of turn
+	private ImagePanel[] dice;		// 5 dice images
+	private JCheckBox[] keep;		// if keep for each die
+	private JLabel turnLabel;		// label show the num of turn
 	private JLabel rollLeftLabel;		// label show the num of rolls left
-	private JButton rollBtn;			// roll button
-	private JButton newGameBtn;			// new game button
+	private JButton rollBtn;		// roll button
+	private JButton newGameBtn;		// new game button
 
 	public YahtzeeFrame() {
 		try {
